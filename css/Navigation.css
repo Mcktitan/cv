@@ -1,0 +1,75 @@
+.logo {
+    margin-top: 10px;
+    float: left;
+    width: 210px;
+}
+
+.mountain {
+    width: 70%;
+    margin-left: 100px;
+}
+
+.container {
+    width: 80%;
+    margin-left: 75px;
+    height: 95px;
+    margin-top: 0 auto;
+}
+
+header {
+    background-color: black
+}
+
+header::after  {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none ;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 36px;
+
+    position: relative;
+}
+
+nav a {
+    color: rgb(199, 194, 194);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a:hover {
+    color: rgb(43, 42, 42);
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #444;
+
+    position: absolute;
+    top: 63px;
+    width: 0%;
+
+    transition: all ease-in-out 250px;
+}
+
+nav a:hover::before {
+    width: 100%;
+}

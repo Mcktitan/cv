@@ -1,0 +1,386 @@
+body, html {
+    background-color: #151515;
+    margin: 0;
+    color: rgb(150, 150, 150);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 2;
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 6%;
+    margin: 100px auto;
+}
+
+.titanlogo {
+    margin-top: 20px;
+    float: left;
+    width: 202px;
+}
+
+.copyright-para {
+    font-size: 0.77rem;
+}
+
+.bottom-container {
+    background-color: black;
+    padding: 50px 0 20px;
+} 
+
+.container {
+    width: 80%;
+    margin-left: 75px;
+    height: 110px;
+    margin-top: 0 auto;
+    overflow: hidden;
+}
+
+header::after  {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none ;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 41px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
+
+nav a {
+    color: rgb(199, 194, 194);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: rgb(92, 90, 90);
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #ffc4ff;
+
+    position: absolute;
+    top: 63px;
+    width: 0%;
+
+    transition: all ease-in-out 250px;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+form {
+    color: white;
+}
+
+legend {
+    color: white;
+}
+
+
+fieldset {
+    width: fit-content;
+}
+
+.contact {
+    margin-top: 15px;
+    margin-left: 10px;
+    color: rgb(150, 150, 150);
+    text-align: center;
+}
+
+#contact-name {
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 4px;
+}
+
+#contact-email {
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 4px;
+}
+
+#contact-textarea {
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact-me {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.submit {
+    text-decoration: none;
+}
+
+.submit:link, .submit:visited {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(49, 49, 49);
+    color: rgb(150, 150, 150);
+    border-radius: 4px;
+}
+
+.submit:hover {
+    background-color: black;
+    text-decoration: none ;
+}
+
+.thankyouh1 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.thankyoupara {
+    text-align: center;
+}
+
+.thankyoupara:hover {
+    color: rgb(126, 101, 150);
+}
+
+.thankyoubutton {
+    text-decoration: none;
+    margin-left: 630px;
+}
+
+.thankyoubutton:link, .thankyoubutton:visited {
+    text-decoration: none;
+    background-color: rgb(49, 49, 49);
+    color: rgb(150, 150, 150);
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.thankyoubutton:hover {
+    background-color: black;
+}
+
+.aboutush1 {
+    margin: 20px;
+    font-size: 36px;
+}
+
+.aboutush1:hover {
+    color: rgb(166, 155, 243);
+    text-decoration: underline;
+}
+
+.designsh1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 36px;
+}
+
+.designsh1:hover {
+    color: rgb(166, 155, 243);
+}
+
+.aboutush2 {
+    margin-top: 1px;
+}
+
+.hello {
+    background-color: red;
+    display: inline-block;
+    position: relative;
+    right: 50px;
+}
+
+.programmer {
+    color:chartreuse;
+    text-decoration: underline;
+}
+
+.titan {
+    text-align: center;
+    padding-top: 100px;
+    font-family: Sacramento, cursive;
+}
+
+.titanx {
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 5px
+}
+
+.skill-row {
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.skill-row p {
+    text-align: left;
+}
+
+.skills h2 {
+    text-align: center;
+} 
+
+
+.top-cloud {
+    position: absolute;
+    right: 100px;
+    top: 150px;
+}
+
+.middle-cloud {
+    position: absolute;
+    left: 150px;
+    bottom: 200px;
+}
+
+.profilelogo {
+    height: 150px;
+    width: 150px;
+    margin-left: 600px;
+    padding-top: 100px;
+}
+
+.profileh2 {
+    text-align: center;
+}
+
+.profile-para {
+    margin: auto;
+    width: 30%;
+    text-align: center;
+}
+
+.mountain {
+    width: 900px;
+    height: 520px;
+}
+
+.computer {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chillies {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.bottom-container {
+    text-align: center;
+}
+
+.btn {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    position: relative;
+    left: 645px;
+    border-radius: 4px;
+
+}
+
+.btn:link, .btn:visited {
+    background-color: rgb(49, 49, 49);
+    color: rgb(150, 150, 150);
+    padding: 10px 14px;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.btn:hover {
+    background-color: rgb(168, 160, 160);
+}
+
+.btn2 {
+    height: 25px;
+    width: 25px;
+}
+
+
+.footer-linkedin {
+    height: 30px;
+    width: 30px;
+    padding-right: 8px;
+}
+
+
+
+.footer-linktwitter {
+    height: 30px;
+    width: 30px;
+    padding-right: 8px;
+}
+
+
+.footer-linkinstagram {
+    height: 30px;
+    width: 30px;
+    padding-right: 8px;
+}
+
+.footer-linkedin-link {
+    text-decoration: none;
+}
+
+.footer-twitter-link {
+    text-decoration: none;
+}
+
+.footer-instagram-link {
+    text-decoration: none;
+}
+
+
